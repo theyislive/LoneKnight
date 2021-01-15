@@ -1,0 +1,44 @@
+
+[*.proto]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+[*.{appxmanifest,axaml,axml,build,c,c++,cc,cginc,compute,config,cp,cpp,csproj,cu,cuh,cxx,dbml,discomap,dtd,h,hh,hlsl,hlsli,hlslinc,hpp,hxx,inc,inl,ino,ipp,jsproj,lsproj,mpp,mq4,mq5,mqh,njsproj,nuspec,paml,proj,props,resw,resx,StyleCop,targets,tasks,tpp,usf,ush,vbproj,xaml,xamlx,xml,xoml,xsd}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+[*]
+
+# Standard properties
+end_of_line = lf
+
+# ReSharper properties
+resharper_align_multiline_expression_braces = true
+resharper_autodetect_indent_settings = true
+resharper_blank_lines_around_class_definition = 2
+resharper_blank_lines_around_single_line_function_definition = 1
+resharper_cpp_keep_user_linebreaks = false
+resharper_cpp_use_indent_from_vs = false
+resharper_enforce_line_ending_style = true
+resharper_indent_preprocessor_directives = normal
+resharper_int_align_comments = true
+resharper_linkage_specification_indentation = all
+resharper_outdent_commas = true
+resharper_outdent_dots = true
+resharper_protobuf_indent_style = tab
+resharper_simple_embedded_statement_style = line_break
+resharper_space_after_keywords_in_control_flow_statements = false
+resharper_space_before_for_colon = false
+resharper_toplevel_function_definition_return_type_style = on_single_line
+resharper_wrap_arguments_style = chop_if_long
+resharper_wrap_parameters_style = chop_always
+resharper_xmldoc_indent_style = tab
+resharper_xml_indent_style = tab
+
+# ReSharper inspection severities
+resharper_cpp_const_parameter_in_declaration_highlighting = none
+resharper_cpp_overriding_function_without_virtual_specifier_highlighting = suggestion
+resharper_cpp_redundant_virtual_specifier_on_override_function_highlighting = none
+resharper_cpp_use_auto_highlighting = none
